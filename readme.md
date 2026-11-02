@@ -24,7 +24,7 @@ Based on the project documentation, the system consists of:
 * **LM2596 Voltage Regulator** & **Battery** (Backup / portable power)
 
 ### ⚡ Circuit Diagram
-![Circuit Diagram](hardware/circuit_diagram.png)
+![Circuit Diagram](circuit.png)
 
 ---
 
@@ -38,9 +38,6 @@ Based on the project documentation, the system consists of:
 ### 2. Processing Dashboard (`processing_dashboard/Turbo_C___lnk.pde`)
 * **Visualization:** Provides a real-time graphical interface (Flame icon, Smoke cloud, Angle gauge, Sensor bars, and Relay status).
 * **Configuration:** Open the `.pde` file in the Processing IDE. **Important:** Change `String portName = "COM4";` on line 4 to match the COM port your Arduino is connected to.
-
-### 3. Project Presentation
-You can view the project presentation and slides here: [presentation.pptx](hardware/presentation.pptx)
 
 ---
 
