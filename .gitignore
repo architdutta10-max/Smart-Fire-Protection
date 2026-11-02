@@ -1,11 +1,15 @@
-# Windows OS files
+# ==========================================
+# OS Specific (Windows & Mac)
+# ==========================================
 Thumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 *.lnk
+.DS_Store
 
-# Arduino IDE files
-*.build/
+# ==========================================
+# Arduino IDE (Build artifacts and temp files)
+# ==========================================
 build/
 *.hex
 *.elf
@@ -14,13 +18,29 @@ build/
 *.map
 *.o
 *.d
+*.a
 
-# Processing IDE files
-build/
+# ==========================================
+# Processing IDE (Build artifacts)
+# ==========================================
 *.class
 *.jar
+out/
+build/
 
-# General temp files
-*.tmp
+# ==========================================
+# Documents & Presentations (Ignore PPTX)
+# ==========================================
+*.pptx
+*.ppt
+~$*.pptx
+~$*.ppt
+
+# ==========================================
+# Editors & Misc
+# ==========================================
 *.log
-.DS_Store
+*.tmp
+*.bak
+.vscode/
+.idea/
