@@ -2,6 +2,10 @@
 
 An affordable, modular, DIY early-detection and active suppression system built using Arduino and Processing. This project detects fire and smoke, aims a nozzle towards the source, and automatically activates a water pump to suppress the flames.
 
+> **Team Member:** Archit Dutta
+
+---
+
 ## 📖 Project Overview
 Home fires cause serious loss of life and property. Minutes matter, and early detection saves lives. This system provides early detection + active suppression. It is designed as a **layered defense** and a supplement to (not a replacement for) professional suppression systems.
 
@@ -24,7 +28,7 @@ Based on the project documentation, the system consists of:
 * **LM2596 Voltage Regulator** & **Battery** (Backup / portable power)
 
 ### ⚡ Circuit Diagram
-![Circuit Diagram](circuit.png)
+![Circuit Diagram](Schematic_New-Projectfffffffff_2025-09-17%20%282%29.png)
 
 ---
 
@@ -55,3 +59,8 @@ Based on the project documentation, the system consists of:
 * Integrate additional sensors (Temperature, CO/CO2).
 * Plan safe suppressant choices (e.g., extinguisher cartridges) and mounting mechanisms.
 * Expand the Processing Dashboard for remote monitoring and debugging.
+
+---
+
+## 📜 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
