@@ -39,6 +39,9 @@ Based on the project documentation, the system consists of:
 * **Visualization:** Provides a real-time graphical interface (Flame icon, Smoke cloud, Angle gauge, Sensor bars, and Relay status).
 * **Configuration:** Open the `.pde` file in the Processing IDE. **Important:** Change `String portName = "COM4";` on line 4 to match the COM port your Arduino is connected to.
 
+### 3. Project Presentation
+You can view the project presentation and slides here: [presentation.pptx](hardware/presentation.pptx)
+
 ---
 
 ## 🚀 How to Run the Project
