@@ -2,7 +2,7 @@
 
 An affordable, modular, DIY early-detection and active suppression system built using Arduino and Processing. This project detects fire and smoke, aims a nozzle towards the source, and automatically activates a water pump to suppress the flames.
 
-## 📖 Overview
+## 📖 Project Overview
 Home fires cause serious loss of life and property. Minutes matter, and early detection saves lives. This system provides early detection + active suppression. It is designed as a **layered defense** and a supplement to (not a replacement for) professional suppression systems.
 
 ### Key Features
@@ -13,13 +13,13 @@ Home fires cause serious loss of life and property. Minutes matter, and early de
 
 ---
 
-## 🛠️ Hardware Requirements
-Based on the project documentation:
-* **Arduino Uno** (Central Controller)
+## 🛠️ Hardware Requirements & Configuration
+Based on the project documentation, the system consists of:
+* **Arduino Uno** (Central Controller: reads sensors, runs logic, controls outputs)
 * **Flame Sensor** (KY-026 - Infrared detection)
-* **Smoke Sensor** (Analog)
-* **Servo Motor** (Pan mechanism for the sensor/nozzle)
-* **Relay Module** (Isolates Arduino from high-current pump loads)
+* **Smoke Sensor** (Analog - detects smoke signatures)
+* **Servo Motor** (Pan mechanism for scanning the environment)
+* **Relay Module** (Acts as an electronic switch to isolate the Arduino from high-current pump loads)
 * **Water Pump & PVC Nozzle** (Directed delivery for suppressant)
 * **LM2596 Voltage Regulator** & **Battery** (Backup / portable power)
 
@@ -28,7 +28,7 @@ Based on the project documentation:
 
 ---
 
-## 💻 Software & Code
+## 💻 Software & Code Configuration
 
 ### 1. Arduino (`arduino_code/sketch_sep8a.ino`)
 * **Logic:** Reads flame/smoke sensors, runs threshold checks, sweeps the servo, and controls the relay.
@@ -37,7 +37,7 @@ Based on the project documentation:
 
 ### 2. Processing Dashboard (`processing_dashboard/Turbo_C___lnk.pde`)
 * **Visualization:** Provides a real-time graphical interface (Flame icon, Smoke cloud, Angle gauge, Sensor bars, and Relay status).
-* **Setup:** Open the `.pde` file in the Processing IDE. **Important:** Change `String portName = "COM4";` to match the COM port your Arduino is connected to.
+* **Configuration:** Open the `.pde` file in the Processing IDE. **Important:** Change `String portName = "COM4";` on line 4 to match the COM port your Arduino is connected to.
 
 ---
 
